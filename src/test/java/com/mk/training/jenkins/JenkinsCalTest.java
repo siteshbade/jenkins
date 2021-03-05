@@ -15,6 +15,7 @@ public class JenkinsCalTest {
 	@Test
 	public void subttractTest() {
 		JenkinsCalculator myCalc = new JenkinsCalculator();
+		String temp = ""
 		assertEquals(5, myCalc.subtractNumbers(10, 5));
 	}
 
